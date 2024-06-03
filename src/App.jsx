@@ -1,13 +1,19 @@
 // layout
-import Header from "./components/layout/Header";
+import Hero from "./components/Hero";
 
 // components
+import Header from "./components/layout/Header";
+import Pricing from "./components/Pricing";
+import Tour from "./components/Tour";
 
 function App() {
 
   return (
-    <div>
+    <div className="">
       <Header />
+      <Hero />
+      <Tour />
+      <Pricing />
     </div>
   )
 }
