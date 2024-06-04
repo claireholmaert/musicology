@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 // components
 import Header from "./components/layout/Header";
 import Pricing from "./components/Pricing";
+import Simon from "./components/Simon";
 import Stats from "./components/Stats";
 import Tour from "./components/Tour";
 
@@ -16,6 +17,7 @@ function App() {
       <Tour />
       <Pricing />
       <Stats />
+      <Simon />
     </div>
   )
 }
